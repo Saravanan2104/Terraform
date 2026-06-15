@@ -14,7 +14,7 @@ resource "aws_subnet" "name" {
     availability_zone = "ap-south-1a"
 }
 
-resource "aws_subnet" "name" {
+resource "aws_subnet" "subnet" {
     vpc_id = aws_vpc.name.id
     cidr_block = "10.0.0.30"
     tags = {
