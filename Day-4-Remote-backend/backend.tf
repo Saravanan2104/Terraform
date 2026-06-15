@@ -3,5 +3,6 @@ terraform {
     bucket = "amzon-rag-bedrock-rag"
     key    = "terraform.tfstate"
     region = "ca-central-1"
+    profile = "venugopal"
   }
 }
